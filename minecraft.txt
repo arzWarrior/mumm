@@ -1,4 +1,4 @@
-// Vilass
+// Vilas
 
 vila:Vila #01
 290,-438
@@ -49,8 +49,8 @@ vila:Vila #07
 665,1916
 673,1916
 673,1892
-663,1892
 668,1892
+668,1882
 
 vila:Vila #08
 1359,1788
@@ -221,6 +221,9 @@ Templo bem soterrado
 Templo
 -1813,4986
 
+Templo Agua
+522,2218
+
 Bruxa
 -299,147
 
@@ -230,11 +233,17 @@ Bruxa
 Poco
 -436,304
 
+Poco
+685,2144
+
 Origem
 36,123
 
 Lava
 71,-32
+
+Lava
+-90,-350
 
 Lava
 -36,154
@@ -275,8 +284,27 @@ Lava
 Lava
 -1588,1703
 
+Lava
+693,2272
+
 Biome Savanna
 -1809,4827
 
 Biome Mesa
 -1540,5812
+
+// Aranha 56
+Spawner
+678,794
+
+// Aranha 11
+Spawner
+-2533,2845
+
+// Aranha 16
+Spawner
+-2508 2869
+
+// Zombie 16
+Spawner
+-2512,2872
