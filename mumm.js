@@ -129,7 +129,7 @@ gerarMapa.addEventListener('click', function(e) {
 
     localizacao = (i + menorX).toString();
 
-    ctx.fillText(localizacao,i - (localizacao.length * 2),10);
+    ctx.fillText(localizacao,i - Math.round(localizacao.length * 5 / 2),10);
     ctx.stroke();
     ctx.closePath();
   }
@@ -142,7 +142,7 @@ gerarMapa.addEventListener('click', function(e) {
 
     localizacao = (i + menorY).toString();
 
-    ctx.fillText(localizacao,10 - (localizacao.length * 2), i+3);
+    ctx.fillText(localizacao,10 - Math.round(localizacao.length * 5 / 2), i+3);
     ctx.stroke();
     ctx.closePath();
   }
@@ -212,10 +212,14 @@ gerarMapa.addEventListener('click', function(e) {
           menorXcaminho = (locais[i].coordenadas[j].x < locais[i].coordenadas[j - 1].x ? locais[i].coordenadas[j].x : locais[i].coordenadas[j - 1].x);
           menorYcaminho = (locais[i].coordenadas[j].y < locais[i].coordenadas[j - 1].y ? locais[i].coordenadas[j].y : locais[i].coordenadas[j - 1].y);
 
-          if(maiorXcaminho != menorXcaminho)
-            ctx.fillText(maiorXcaminho - menorXcaminho, menorXcaminho + Math.round((maiorXcaminho - menorXcaminho) / 2) - menorX, maiorYcaminho - menorY - 5);
-          else
-            ctx.fillText(maiorYcaminho - menorYcaminho, maiorXcaminho - menorX + 5, menorYcaminho + Math.round((maiorYcaminho - menorYcaminho) / 2) - menorY);
+          if(maiorXcaminho != menorXcaminho) {
+            distancia = (maiorXcaminho - menorXcaminho).toString();
+            ctx.fillText(distancia, menorXcaminho + Math.round((maiorXcaminho - menorXcaminho) / 2) - menorX - Math.round(distancia.length * 5 / 2), maiorYcaminho - menorY - 5);
+          }
+          else {
+            distancia = (maiorYcaminho - menorYcaminho).toString();
+            ctx.fillText(distancia, maiorXcaminho - menorX + 5, menorYcaminho + Math.round((maiorYcaminho - menorYcaminho) / 2) - menorY);
+          }
 
         }
       }
@@ -234,11 +238,11 @@ gerarMapa.addEventListener('click', function(e) {
 //    ctx.strokeRect(menorXlocal + Math.round((maiorXlocal - menorXlocal) / 2) - menorX, menorYlocal + Math.round((maiorYlocal - menorYlocal) / 2) - menorY, 1, 1);
 
       if(locais[i].tipo != "caminho") {
-        ctx.fillText(locais[i].nome, menorXlocal + Math.round((maiorXlocal - menorXlocal) / 2) - menorX - (locais[i].nome.length * 2), menorYlocal + Math.round((maiorYlocal - menorYlocal) / 2) - menorY);
+        ctx.fillText(locais[i].nome, menorXlocal + Math.round((maiorXlocal - menorXlocal) / 2) - menorX - Math.round(locais[i].nome.length * 5 / 2), menorYlocal + Math.round((maiorYlocal - menorYlocal) / 2) - menorY);
 
-        localizacao = (menorXlocal + Math.round((maiorXlocal - menorXlocal) / 2)) + ", " + (menorYlocal + Math.round((maiorYlocal - menorYlocal) / 2));
+        localizacao = (menorXlocal + Math.round((maiorXlocal - menorXlocal) / 2)) + "," + (menorYlocal + Math.round((maiorYlocal - menorYlocal) / 2));
 
-        ctx.fillText(localizacao, menorXlocal + Math.round((maiorXlocal - menorXlocal) / 2) - menorX - (localizacao.length * 2), menorYlocal + Math.round((maiorYlocal - menorYlocal) / 2) - menorY + 10);
+        ctx.fillText(localizacao, menorXlocal + Math.round((maiorXlocal - menorXlocal) / 2) - menorX - Math.round(localizacao.length * 5 / 2), menorYlocal + Math.round((maiorYlocal - menorYlocal) / 2) - menorY + 10);
       }
     }
     else {
@@ -247,9 +251,9 @@ gerarMapa.addEventListener('click', function(e) {
       ctx.strokeRect(locais[i].coordenadas[0].x - menorX, locais[i].coordenadas[0].y - menorY,1,1);
       texto = texto + locais[i].coordenadas[0].x + "," + locais[i].coordenadas[0].y + "\n";
 
-      localizacao = locais[i].coordenadas[0].x + ", " + locais[i].coordenadas[0].y;
-      ctx.fillText(locais[i].nome, locais[i].coordenadas[0].x - menorX - (locais[i].nome.length * 2), locais[i].coordenadas[0].y - menorY + 10);
-      ctx.fillText(localizacao, locais[i].coordenadas[0].x - menorX - (localizacao.length * 2), locais[i].coordenadas[0].y - menorY + 20);
+      localizacao = locais[i].coordenadas[0].x + "," + locais[i].coordenadas[0].y;
+      ctx.fillText(locais[i].nome, locais[i].coordenadas[0].x - menorX - Math.round(locais[i].nome.length * 5 / 2), locais[i].coordenadas[0].y - menorY + 10);
+      ctx.fillText(localizacao, locais[i].coordenadas[0].x - menorX - Math.round(localizacao.length * 5 / 2), locais[i].coordenadas[0].y - menorY + 20);
     }
   }
 
