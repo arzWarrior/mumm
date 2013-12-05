@@ -1,0 +1,303 @@
+http://www.minecraftinfo.com/items.htm
+
+Flores:
+ Allium
+ Azure Bluet
+ Blue Orchid
+ Dandelion
+ Lilac
+ Tulip
+ Oxeye Daisy
+ Peony
+ Poppy
+
+Utilitarios:
+ Anvil
+ Beacon
+ Bed
+ Brewing Stand
+ Chest
+ Enchantment Table
+ Ender Chest
+ Furnace
+ Jukebox
+ Locked Chest
+
+Comida:
+ Apple
+ Enchanted Golden Apple
+ Glistering Melon (Slice)
+ Golden Apple
+ Golden Carrot
+
+Comidas feitas:
+ Baked Potato
+ Bread
+ Cake
+ Cooked Chicken
+ Cooked Fish
+ Cooked Porkchop
+ Cookie
+ Mushroom Stew
+ Pumpkin Pie
+
+Armas:
+ Arrow
+ Bow
+ Sword
+
+Poções:
+ Potion
+ Bottle of Enchanting
+ Splash
+
+Itens processados:
+ Blaze Powder
+ Bone Meal
+ Eye of Ender
+ Fermented Spider Eye
+
+Drops de Monstros:
+ Blaze Rod
+ Bone
+ Ender Pearl
+ Feather
+ Ghast Tear
+ Gunpowder
+ Ink Sack
+ Magma Cream
+ Nether Star
+
+Drops de Animais:
+ Leather
+
+Veiculos:
+ Boat
+ Minecart
+
+Utencilios:
+ Book
+ Book and Quill
+ Bowl
+ Bucket
+ Carrot on a Stick
+ Cauldron
+ Compass
+ Empty Map
+ Flower Pot
+ Flint and Steel
+ Glass Bottle
+ Item Frame
+ Ladder
+ Lead
+ Music Disk (13)
+ Name Tag
+ Note Block
+ Painting
+ Paper
+
+Plantacoes:
+ Brown Mushroom
+ Carrot
+ Cocoa Bean
+ Melon (Slice)
+ Melon Seeds
+ Nether Wart
+ Nether Wart Seeds
+ Poisonous Potato
+ Potato
+ Pumpkin Seeds
+
+Mecanismos:
+ Button
+ Daylight Sensor
+ Dispenser
+ Dropper
+ Fence Gate
+ Hopper
+ Door
+ Lever
+ Piston
+
+Mudas:
+ Cactus
+
+Tintas:
+ Dye
+
+Armaduras:
+ Boots
+ Chestplate
+ Helmet
+ Leggings
+
+
+Ferramentas:
+ Axe
+ Hoe
+ Pickaxe
+ Shovel
+ Fishing Rod
+
+Minerios:
+ Block of Redstone
+ Diamond Gem
+ Emerald
+ Glowstone Dust
+ Gold Ingot
+ Gold Nugget
+ Iron Ingot
+ Lapis Lazuli
+ Nether Quartz
+
+Cavalos:
+ Horse Armor
+
+Ovo:
+ Egg
+
+Livros encantados:
+ Enchanted Book
+
+Blocos:
+ Charcoal
+ Coal
+ Clay
+ Clay Brick
+ Flint
+ Nether Brick (Item)
+
+
+??:
+ Fire Charge
+ Firework Rocket
+ Firework Star
+
+
+
+
+
+ Cocoa Plant
+ Command Block
+ Dead Shrub
+ Double Tallgrass
+ Dragon Egg
+ Large Fern
+
+
+
+
+
+
+P
+
+
+
+
+
+
+
+Q
+ Quartz Stairs
+R
+ Rail
+ Rail (Activator)
+ Rail (Detector)
+ Rail (Powered)
+ Raw Beef
+ Raw Chicken
+ Raw Fish
+ Raw Porkchop
+ Red Mushroom
+ Red Tulip
+ Redstone Comparator
+ Redstone Dust
+ Redstone Lamp
+ Redstone Repeater
+ Redstone Torch
+ Redstone Wire
+ Regeneration Potion (0:45)
+ Regeneration Potion (2:00)
+ Regeneration Potion II (0:22)
+ Regeneration Potion II (1:00)
+ Regeneration Splash (0:33)
+ Regeneration Splash (1:30)
+ Regeneration Splash II (0:16)
+ Regeneration Splash II (0:45)
+ Rose Bush
+ Rose Red Dye
+ Rotten Flesh
+S
+ Saddle
+ Sapling (Oak)
+ Shears
+ Sign
+ Slime Ball
+ Slowness Potion (1:30)
+ Slowness Potion (4:00)
+ Slowness Splash (1:07)
+ Slowness Splash (3:00)
+ Snowball
+ Spawn Egg (Pig)
+ Spider Eye
+ Steak
+ Stick
+ Sticky Piston
+ Stone Axe
+ Stone Hoe
+ Stone Pickaxe
+ Stone Pressure Plate
+ Stone Shovel
+ Stone Sword
+ Strength Potion (3:00)
+ Strength Potion (8:00)
+ Strength Potion II (1:30)
+ Strength Potion II (4:00)
+ Strength Splash (2:15)
+ Strength Splash (6:00)
+ Strength Splash II (1:07)
+ Strength Splash II (3:00)
+ String
+ Sugar
+ Sugar Cane
+ Sunflower
+ Swiftness Potion (3:00)
+ Swiftness Potion (8:00)
+ Swiftness Potion II (1:30)
+ Swiftness Potion II (4:00)
+ Swiftness Splash (2:15)
+ Swiftness Splash (6:00)
+ Swiftness Splash II (1:07)
+ Swiftness Splash II (3:00)
+T
+ TNT
+ Tall Grass
+ Thick Potion
+ Torch
+ Trapdoor
+ Trapped Chest
+ Tripwire
+ Tripwire Hook
+W
+ Watch
+ Water Bottle
+ Water Breathing Potion (3:00)
+ Water Breathing Potion (8:00)
+ Weakness Potion (1:30)
+ Weakness Potion (4:00)
+ Weakness Splash (1:07)
+ Weakness Splash (3:00)
+ Weighted Pressure Plate (Heavy)
+ Weighted Pressure Plate (Light)
+ Wheat
+ Wheat Seeds
+ White Tulip
+ Wooden Axe
+ Wooden Door
+ Wooden Hoe
+ Wooden Pickaxe
+ Wooden Pressure Plate
+ Wooden Shovel
+ Wooden Sword
+ Workbench
+ Written Book

@@ -1,0 +1,12 @@
+Dar uma espada de madeira, nome Escalibur, informação Kill them all!, ataque +50!
+/give @p 268 1 0 {display:{Name:"Escalibur",Lore:[Kill them all!]},AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:50,Operation:0,UUIDLeast:894654,UUIDMost:2872}]}
+
+
+Encantamemnto: Sharpness 2, Looting 1, Smite 4
+ench:[{id:16,lvl:2},{id:21,lvl:1},{id:17,lvl:4}]
+
+Chest com item dentro:
+/setblock ~ ~-1 ~ 54 0 replace {Items:[{id:276,Count:1,Slot:0}]}
+
+Command Block com comando:
+/setblock ~ ~-1 ~ minecraft:command_block 0 destroy {Command:/say @p Hi}
