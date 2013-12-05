@@ -155,6 +155,9 @@ vila:Vila #14
 -2548,2881
 -2519,2881
 
+Vila #15
+-4911,-1509
+
 // Construcoes
 
 Casa Areia
@@ -316,6 +319,9 @@ Bruxa
 Bruxa
 -2267,3284
 
+Bruxa
+-811,-828
+
 Poco
 -436,304
 
@@ -394,3 +400,7 @@ Spawner
 // Zombie 16
 Spawner
 -2512,2872
+
+//Zombie 24
+Spawner
+-202,-926

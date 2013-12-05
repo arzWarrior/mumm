@@ -6,6 +6,7 @@ window.onload = function() {
   var abrirImagem = document.getElementById('abrirImagem');
   var ondeFica = document.getElementById('ondeFica');
   var coordenadasOndeFica = document.getElementById('coordenadasOndeFica');
+  var barra = document.getElementById('barra');
 
   var menorX = null, menorY = null, maiorX = null, maiorY = null, locais = new Array();
   var texto = "";
@@ -218,7 +219,7 @@ gerarMapa.addEventListener('click', function(e) {
           }
           else {
             distancia = (maiorYcaminho - menorYcaminho).toString();
-            ctx.fillText(distancia, maiorXcaminho - menorX + 5, menorYcaminho + Math.round((maiorYcaminho - menorYcaminho) / 2) - menorY);
+            ctx.fillText(distancia, maiorXcaminho - menorX + 5, menorYcaminho + Math.round((maiorYcaminho - menorYcaminho) / 2) - menorY + 3);
           }
 
         }
@@ -238,11 +239,11 @@ gerarMapa.addEventListener('click', function(e) {
 //    ctx.strokeRect(menorXlocal + Math.round((maiorXlocal - menorXlocal) / 2) - menorX, menorYlocal + Math.round((maiorYlocal - menorYlocal) / 2) - menorY, 1, 1);
 
       if(locais[i].tipo != "caminho") {
-        ctx.fillText(locais[i].nome, menorXlocal + Math.round((maiorXlocal - menorXlocal) / 2) - menorX - Math.round(locais[i].nome.length * 5 / 2), menorYlocal + Math.round((maiorYlocal - menorYlocal) / 2) - menorY);
+        ctx.fillText(locais[i].nome, menorXlocal + Math.round((maiorXlocal - menorXlocal) / 2) - menorX - Math.round(locais[i].nome.length * 4 / 2), menorYlocal + Math.round((maiorYlocal - menorYlocal) / 2) - menorY);
 
         localizacao = (menorXlocal + Math.round((maiorXlocal - menorXlocal) / 2)) + "," + (menorYlocal + Math.round((maiorYlocal - menorYlocal) / 2));
 
-        ctx.fillText(localizacao, menorXlocal + Math.round((maiorXlocal - menorXlocal) / 2) - menorX - Math.round(localizacao.length * 5 / 2), menorYlocal + Math.round((maiorYlocal - menorYlocal) / 2) - menorY + 10);
+        ctx.fillText(localizacao, menorXlocal + Math.round((maiorXlocal - menorXlocal) / 2) - menorX - Math.round(localizacao.length * 4 / 2), menorYlocal + Math.round((maiorYlocal - menorYlocal) / 2) - menorY + 10);
       }
     }
     else {
@@ -252,8 +253,8 @@ gerarMapa.addEventListener('click', function(e) {
       texto = texto + locais[i].coordenadas[0].x + "," + locais[i].coordenadas[0].y + "\n";
 
       localizacao = locais[i].coordenadas[0].x + "," + locais[i].coordenadas[0].y;
-      ctx.fillText(locais[i].nome, locais[i].coordenadas[0].x - menorX - Math.round(locais[i].nome.length * 5 / 2), locais[i].coordenadas[0].y - menorY + 10);
-      ctx.fillText(localizacao, locais[i].coordenadas[0].x - menorX - Math.round(localizacao.length * 5 / 2), locais[i].coordenadas[0].y - menorY + 20);
+      ctx.fillText(locais[i].nome, locais[i].coordenadas[0].x - menorX - Math.round(locais[i].nome.length * 4 / 2), locais[i].coordenadas[0].y - menorY + 15);
+      ctx.fillText(localizacao, locais[i].coordenadas[0].x - menorX - Math.round(localizacao.length * 4 / 2), locais[i].coordenadas[0].y - menorY + 25);
     }
   }
 
@@ -295,6 +296,25 @@ ondeFica.addEventListener('click', function(e) {
     ctx.closePath();
 
   }
+});
+
+canvasMapa.addEventListener("mousemove", function(e) {
+  var x;
+  var y;
+  if (e.pageX != undefined && e.pageY != undefined) {
+    x = e.pageX;
+    y = e.pageY;
+  }
+  else {
+    x = e.clientX + document.body.scrollLeft + document.documentElement.scrollLeft;
+    y = e.clientY + document.body.scrollTop + document.documentElement.scrollTop;
+  }
+
+  x -= canvasMapa.offsetLeft;
+  y -= canvasMapa.offsetTop;
+
+  barra.innerHTML = (x + menorX) + "," + (y + menorY); 
+
 });
 
 }
